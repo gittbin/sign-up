@@ -24,17 +24,11 @@ function getParent(element,class_of_parent){
     
 }
 input.forEach(function(element,index){
-    if(element.value){
-        error[index].style.display="none"
-        label[index].style.transform="translateY(0px)"
-        label[index].style.color="rgb(0, 255, 242)"
-      element.style.borderBottom="4px solid rgb(0, 255, 242)"
-    }
   element.onclick=function(){
 error[index].style.display="none"
   label[index].style.transform="translateY(0px)"
-  label[index].style.color="rgb(0, 255, 242)"
-element.style.borderBottom="4px solid rgb(0, 255, 242)"
+  label[index].style.color="rgb(230, 52, 221)"
+element.style.borderBottom="4px solid rgb(230, 52, 221)"
 }
   element.onblur=function(){
     if(element.value){}
