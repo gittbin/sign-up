@@ -3,11 +3,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     height: 100vh;
     width: 100%;
-    background-image: url(anime-girl-red-refflex-1530111-wallhere.com.jpg);
+    background-image: url(https://wallpapercave.com/wp/wp5693236.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -15,6 +16,7 @@ body{
     align-items: center
 }
 .container{
+    /* position: absolute; */
     width:50%;
 display:flex ;
 align-items: center;
@@ -103,11 +105,19 @@ a{
 a:hover{
     color: rgb(194, 63, 234);
 }
-@media (max-width: 1110px) and (min-width: 768px){
+@media (max-width: 1230px) and (min-width: 768px){
 .container{
-    width: 900px;
+    width: 700px;
 }
 }
-@media (max-width: 710px){
-    .container{width: 100%;}
+@media (max-width: 768px){
+    .container{width: 400px;}
+}
+@media(max-width:784px){
+    body{
+       
+        background-image: url(https://wallpapercave.com/dwp1x/wp4779055.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
